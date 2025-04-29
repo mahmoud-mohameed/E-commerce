@@ -1,0 +1,91 @@
+.header{
+background-color: #FFFFFF;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+}
+.header .first img{
+    width: 150px;
+    height: 100px;
+    padding: 8px;
+
+}
+.header .headermadil{
+    text-align: center;
+    padding: 8px;
+}
+.header .headermadil .madil{
+    border: 3px solid var(--main-color);
+    border-radius: 8px;
+    width: 300px;
+    padding: 8px;
+    display: flex;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.header .madil input{
+border: 1px solid #FFFFFF;
+padding: 5px;
+outline: none;
+}
+.header .madil svg{
+    color: var(--main-color);
+    margin-left: 50px;
+    padding: 5px;
+    font-size: 16px;
+}
+.header .third{
+    text-align: right;
+    padding: 8px;
+    display: flex;
+}
+.header  .third .Sign-up{
+    border:  3px solid var(--main-color);
+    border-radius: 8px;
+    padding:0px 4px;
+   
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 20px;
+    text-align: center;
+    background-color: #F2F6F5;
+    color: #20776A;
+}
+.header .Sign-up svg{
+    color: var(--main-color);
+}
+.header .Signup {
+    color: #20776A ;
+    text-decoration: none;
+}
+.header .Sign-in{
+    border:  3px solid  #604E48;
+    border-radius: 8px;
+    padding: 0px 4px;
+   
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #FFF6F4;
+    color: #604E48 ;
+}
+.header .Sign-in svg{
+    color: #604E48;
+}
+.header .Signin {
+    color: #604E48 ;
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    .header {
+      flex-direction: column; 
+      align-items: center;
+    }
+}

@@ -1,0 +1,23 @@
+
+.Gategorie{
+    background-color: var(--white-color);
+    padding: 20px;
+
+}
+.Gategorie h1{
+    color: var(--secound-color);
+    font-family: Aclonica;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.Gategorie .Gategories-about{
+    padding: 2px;
+    text-align: center;
+    
+
+}
+.Gategorie .Gategories-about  img{
+    width: 90px;
+    height: 110px;
+}

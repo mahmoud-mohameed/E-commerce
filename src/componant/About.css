@@ -1,0 +1,44 @@
+.About{
+    background-color: var( --white-color);
+    padding: 20px;
+    margin: 30px;
+}
+
+
+.About h1{
+    
+    font-family: Aclonica;
+    color: var(--secound-color);
+    font-size: 30px;
+}
+.About span{
+    color: var(--secound-color);
+    font-size: 30px;
+}
+.About p{
+    color: #333333;
+    font-size: 20px;
+}
+.About .About-icon{
+    border: 1px solid #e5e7eb;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0px 12px 12px 0px;
+    padding: 12px;
+    transition: transform 0.3s ease;
+
+}
+.About .About-icon h2{
+    color: #000000;
+    font-size: 22px;
+
+}
+.About .About-icon p{
+    color: #000000;
+    font-size: 12px;
+    
+}
+.About .About-icon:hover{
+    transform: scale(1.1);
+}

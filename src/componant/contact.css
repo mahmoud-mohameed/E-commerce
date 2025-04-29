@@ -1,0 +1,36 @@
+.Contact{
+    margin-bottom: 20px;
+    background:linear-gradient(to bottom, #E5EDEC 70%, transparent 30%);;
+
+}
+.Contact h1{
+    color: var(--secound-color);
+    text-align: center;
+    padding:60px 0px 0px ;
+    font-size: 70px;
+    margin-bottom:80px;
+}
+.Contact .Contact-us{
+    border: 1px solid #e5e7eb;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 8px;
+   
+    padding: 10px;
+    transition: transform 0.3s ease;
+    background-color: var(--white-color);
+
+}
+.Contact .Contact-us h2{
+    color:  var(--secound-color);
+    margin-top: 5px;
+    font-size: 30px;
+}
+.Contact .Contact-us p{
+    font-size: 20px;
+    color: #000000;
+}
+
+.Contact .Contact-us:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,136 @@
+.Signform {
+    background-color: #FFEEE8;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sign{
+    background-color: white;
+    border: 1px solid #FFEEE8;
+    border-radius: 50px;
+    width: 350px;
+    text-align: center;
+    padding: 30px;
+    
+
+}
+.sign h1{
+    color: #604E48;
+    font-family: Aclonica;
+    text-align: center;
+    font-weight: 500;
+    font-size: 35px;
+    margin: 20px;
+}
+.sign p{
+    color: black;
+    margin-bottom: 70px;
+
+}
+.sign .email,.sign .password{
+    background-color:#FFEEE8 ;
+    border: 1px solid #FFEEE8;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+}
+input{
+    border: none;
+    background-color: #FFEEE8;
+    outline: none;
+}
+.sign-in{
+    margin: 15px;
+    background-color: #604E48;
+    width: 280px;
+    border: 1px solid #604E48;
+    border-radius: 8px;
+    color: #F2F6F5;
+}
+.sign-in:hover{
+    color: #604E48;
+    background-color: #F2F6F5;
+}
+span{
+    color: black;
+    font-size: 16px;
+}
+.gosign-up{
+    text-decoration: none;
+    color: #604E48;
+    margin-left: 5px;
+}
+
+
+
+/* ///////////////////////////////////// */
+
+
+.Sign-up2{
+    background-color: #E5EDEC;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sign-up{
+    background-color: white;
+    border: 1px solid #E5EDEC ;
+    border-radius: 50px;
+    width: 350px;
+    text-align: center;
+    padding: 30px;
+}
+.sign-up-title h1{
+    color: #005E55;
+    font-family: Aclonica;
+    text-align: center;
+    font-weight: 500;
+    font-size: 35px;
+    margin: 20px;
+}
+.sign-up-title p{
+    color: black;
+    margin-bottom: 70px;
+}
+
+.user-up,.pass-up,.email-up,.confirm-pass{
+    background-color:#E5EDEC;
+    border: 1px solid #E5EDEC;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+}
+
+.user-up input,.pass-up input,.email-up input,.confirm-pass input{
+    border: none;
+    background-color: #E5EDEC;
+    outline: none;
+}
+
+.btn-up{
+    margin: 15px;
+    background-color: #005E55;
+    width: 280px;
+    border: 1px solid #005E55;
+    border-radius: 8px;
+    color: #F2F6F5;
+}
+
+.account-up span{
+    color: black;
+    font-size: 16px;
+}
+.account-up .gosign-in{
+
+    text-decoration: none;
+    color: #005E55;
+    margin-left: 5px;
+}
