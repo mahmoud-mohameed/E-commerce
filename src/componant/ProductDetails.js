@@ -40,10 +40,11 @@ const ProductDetails = () =>{
       const getProduct = async () => {
           setLoading(true);
           try {
-        const response = await axios.get(`http://localhost:5000/data/${id}`);
+        const response = await axios.get(`/data/api.json`);
+        const product = response.data.data.find((item) => item.id === Number(id));
         
               
-    setProductDetails( response.data);
+    setProductDetails( product);
           } catch (error) {
               console.error("Error fetching product:", error);
           }

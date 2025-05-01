@@ -24,7 +24,7 @@ const CartProduct = () =>{
                 <div className='Remove'>
                
                 <button className="RemoveAllProducts" onClick={() => {dispatch(clearCart())
-                    // alert("dddddddd")
+                    
                     setRemoveMessage('item removed from cart successfuly✅');
 
                                         setTimeout(() => {
@@ -40,7 +40,7 @@ const CartProduct = () =>{
                         {cart.map((product)=>{
                           const isInwishlist = wishList.some((item) => item.id === product.id);
                           return(
-                            <div className="col-lg-3 col-md-4 col-sm-6" key={product.id}>
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6" key={product.id}>
                             
                             <div className="Cart">
                             <div className="about-cart">
